@@ -19,7 +19,7 @@ dependencies:
     version: 3.1.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
   '@docusaurus/preset-classic':
     specifier: 3.1.0
-    version: 3.1.0(@algolia/client-search@4.22.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
+    version: 3.1.0(@algolia/client-search@4.22.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
   '@mdx-js/react':
     specifier: ^3.0.0
     version: 3.0.0(@types/react@18.2.47)(react@18.2.0)
@@ -1581,7 +1581,7 @@ packages:
     resolution: {integrity: sha512-SPiDHaWKQZpwR2siD0KQUwlStvIAnEyK6tAE2h2Wuoq8ue9skzhlyVQ1ddzOxX6khULnAALDiR/isSF3bnuciA==}
     dev: false
 
-  /@docsearch/react@3.5.2(@algolia/client-search@4.22.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0):
+  /@docsearch/react@3.5.2(@algolia/client-search@4.22.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0):
     resolution: {integrity: sha512-9Ahcrs5z2jq/DcAvYtvlqEBHImbm4YJI8M9y0x6Tqg598P40HTEkX7hsMcIuThI+hTFxRGZ9hll0Wygm2yEjng==}
     peerDependencies:
       '@types/react': '>= 16.8.0 < 19.0.0'
@@ -1601,7 +1601,7 @@ packages:
       '@algolia/autocomplete-core': 1.9.3(@algolia/client-search@4.22.0)(algoliasearch@4.22.0)(search-insights@2.13.0)
       '@algolia/autocomplete-preset-algolia': 1.9.3(@algolia/client-search@4.22.0)(algoliasearch@4.22.0)
       '@docsearch/css': 3.5.2
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       algoliasearch: 4.22.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -1942,7 +1942,7 @@ packages:
       '@docusaurus/react-loadable': 5.5.2(react@18.2.0)
       '@docusaurus/types': 3.1.0(react-dom@18.2.0)(react@18.2.0)
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       '@types/react-router-config': 5.0.11
       '@types/react-router-dom': 5.3.3
       react: 18.2.0
@@ -2265,7 +2265,7 @@ packages:
       '@docusaurus/utils': 3.1.0(@docusaurus/types@3.1.0)
       '@docusaurus/utils-validation': 3.1.0(@docusaurus/types@3.1.0)
       babel-loader: 9.1.3(@babel/core@7.23.7)(webpack@5.89.0)
-      clsx: 2.0.0
+      clsx: 2.1.0
       core-js: 3.35.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2334,7 +2334,7 @@ packages:
       - webpack-cli
     dev: false
 
-  /@docusaurus/preset-classic@3.1.0(@algolia/client-search@4.22.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3):
+  /@docusaurus/preset-classic@3.1.0(@algolia/client-search@4.22.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3):
     resolution: {integrity: sha512-xGLQRFmmT9IinAGUDVRYZ54Ys28USNbA3OTXQXnSJLPr1rCY7CYnHI4XoOnKWrNnDiAI4ruMzunXWyaElUYCKQ==}
     engines: {node: '>=18.0'}
     peerDependencies:
@@ -2350,9 +2350,9 @@ packages:
       '@docusaurus/plugin-google-gtag': 3.1.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@docusaurus/plugin-google-tag-manager': 3.1.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@docusaurus/plugin-sitemap': 3.1.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
-      '@docusaurus/theme-classic': 3.1.0(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
+      '@docusaurus/theme-classic': 3.1.0(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@docusaurus/theme-common': 3.1.0(@docusaurus/types@3.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
-      '@docusaurus/theme-search-algolia': 3.1.0(@algolia/client-search@4.22.0)(@docusaurus/types@3.1.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
+      '@docusaurus/theme-search-algolia': 3.1.0(@algolia/client-search@4.22.0)(@docusaurus/types@3.1.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
       '@docusaurus/types': 3.1.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -2387,7 +2387,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
 
-  /@docusaurus/theme-classic@3.1.0(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
+  /@docusaurus/theme-classic@3.1.0(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3):
     resolution: {integrity: sha512-/+jMl2Z9O8QQxves5AtHdt91gWsEZFgOV3La/6eyKEd7QLqQUtM5fxEJ40rq9NKYjqCd1HzZ9egIMeJoWwillw==}
     engines: {node: '>=18.0'}
     peerDependencies:
@@ -2406,8 +2406,8 @@ packages:
       '@docusaurus/utils': 3.1.0(@docusaurus/types@3.1.0)
       '@docusaurus/utils-common': 3.1.0(@docusaurus/types@3.1.0)
       '@docusaurus/utils-validation': 3.1.0(@docusaurus/types@3.1.0)
-      '@mdx-js/react': 3.0.0(@types/react@18.2.37)(react@18.2.0)
-      clsx: 2.0.0
+      '@mdx-js/react': 3.0.0(@types/react@18.2.47)(react@18.2.0)
+      clsx: 2.1.0
       copy-text-to-clipboard: 3.2.0
       infima: 0.2.0-alpha.43
       lodash: 4.17.21
@@ -2456,9 +2456,9 @@ packages:
       '@docusaurus/utils': 3.1.0(@docusaurus/types@3.1.0)
       '@docusaurus/utils-common': 3.1.0(@docusaurus/types@3.1.0)
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       '@types/react-router-config': 5.0.11
-      clsx: 2.0.0
+      clsx: 2.1.0
       parse-numeric-range: 1.3.0
       prism-react-renderer: 2.3.1(react@18.2.0)
       react: 18.2.0
@@ -2485,14 +2485,14 @@ packages:
       - webpack-cli
     dev: false
 
-  /@docusaurus/theme-search-algolia@3.1.0(@algolia/client-search@4.22.0)(@docusaurus/types@3.1.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3):
+  /@docusaurus/theme-search-algolia@3.1.0(@algolia/client-search@4.22.0)(@docusaurus/types@3.1.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3):
     resolution: {integrity: sha512-8cJH0ZhPsEDjq3jR3I+wHmWzVY2bXMQJ59v2QxUmsTZxbWA4u+IzccJMIJx4ooFl9J6iYynwYsFuHxyx/KUmfQ==}
     engines: {node: '>=18.0'}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
     dependencies:
-      '@docsearch/react': 3.5.2(@algolia/client-search@4.22.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)
+      '@docsearch/react': 3.5.2(@algolia/client-search@4.22.0)(@types/react@18.2.47)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)
       '@docusaurus/core': 3.1.0(@docusaurus/types@3.1.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
       '@docusaurus/logger': 3.1.0
       '@docusaurus/plugin-content-docs': 3.1.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)
@@ -2502,7 +2502,7 @@ packages:
       '@docusaurus/utils-validation': 3.1.0(@docusaurus/types@3.1.0)
       algoliasearch: 4.22.0
       algoliasearch-helper: 3.16.1(algoliasearch@4.22.0)
-      clsx: 2.0.0
+      clsx: 2.1.0
       eta: 2.2.0
       fs-extra: 11.2.0
       lodash: 4.17.21
@@ -2576,7 +2576,7 @@ packages:
     dependencies:
       '@mdx-js/mdx': 3.0.0
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       commander: 5.1.0
       joi: 17.11.0
       react: 18.2.0
@@ -4175,8 +4175,8 @@ packages:
       kind-of: 6.0.3
       shallow-clone: 3.0.1
 
-  /clsx@2.0.0:
-    resolution: {integrity: sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==}
+  /clsx@2.1.0:
+    resolution: {integrity: sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==}
     engines: {node: '>=6'}
     dev: false
 
