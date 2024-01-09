@@ -22,10 +22,10 @@ dependencies:
     version: 3.1.0(@algolia/client-search@4.22.0)(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)(search-insights@2.13.0)(typescript@5.3.3)
   '@mdx-js/react':
     specifier: ^3.0.0
-    version: 3.0.0(@types/react@18.2.37)(react@18.2.0)
+    version: 3.0.0(@types/react@18.2.47)(react@18.2.0)
   clsx:
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^2.1.0
+    version: 2.1.0
   markdown-it:
     specifier: ^14.0.0
     version: 14.0.0
@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^1.5.8
     version: 1.5.8
   '@types/react':
-    specifier: ^18.2.37
-    version: 18.2.37
+    specifier: ^18.2.47
+    version: 18.2.47
   '@types/react-dom':
     specifier: ^18.2.15
     version: 18.2.18
@@ -2383,7 +2383,7 @@ packages:
     peerDependencies:
       react: '*'
     dependencies:
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       prop-types: 15.8.1
       react: 18.2.0
 
@@ -2552,7 +2552,7 @@ packages:
       react-dom: ^18.0.0
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       commander: 5.1.0
       joi: 17.11.0
       react: 18.2.0
@@ -2815,14 +2815,14 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@mdx-js/react@3.0.0(@types/react@18.2.37)(react@18.2.0):
+  /@mdx-js/react@3.0.0(@types/react@18.2.47)(react@18.2.0):
     resolution: {integrity: sha512-nDctevR9KyYFyV+m+/+S4cpzCWHqj+iHDHq3QrsWezcC+B17uZdIWgCguESUkwFhM3n/56KxWVE3V6EokrmONQ==}
     peerDependencies:
       '@types/react': '>=16'
       react: '>=16'
     dependencies:
       '@types/mdx': 2.0.9
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       react: 18.2.0
     dev: false
 
@@ -3292,7 +3292,7 @@ packages:
   /@types/mdx-js__react@1.5.8:
     resolution: {integrity: sha512-iLQL8JZ4AZ+rpZvGUsQwENffpsSCMLYB8kE6OhGasLmdYn7aSLq53uOvZrKx5FM+hymE2nm08HDfq7tFx02ElA==}
     dependencies:
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
     dev: true
 
   /@types/mdx@2.0.10:
@@ -3350,31 +3350,31 @@ packages:
   /@types/react-dom@18.2.18:
     resolution: {integrity: sha512-TJxDm6OfAX2KJWJdMEVTwWke5Sc/E/RlnPGvGfS0W7+6ocy2xhDVQVh/KvC2Uf7kACs+gDytdusDSdWfWkaNzw==}
     dependencies:
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
     dev: true
 
   /@types/react-router-config@5.0.11:
     resolution: {integrity: sha512-WmSAg7WgqW7m4x8Mt4N6ZyKz0BubSj/2tVUMsAHp+Yd2AMwcSbeFq9WympT19p5heCFmF97R9eD5uUR/t4HEqw==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       '@types/react-router': 5.1.20
 
   /@types/react-router-dom@5.3.3:
     resolution: {integrity: sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
       '@types/react-router': 5.1.20
 
   /@types/react-router@5.1.20:
     resolution: {integrity: sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.37
+      '@types/react': 18.2.47
 
-  /@types/react@18.2.37:
-    resolution: {integrity: sha512-RGAYMi2bhRgEXT3f4B92WTohopH6bIXw05FuGlmJEnv/omEn190+QYEIYxIAuIBdKgboYYdVved2p1AxZVQnaw==}
+  /@types/react@18.2.47:
+    resolution: {integrity: sha512-xquNkkOirwyCgoClNk85BjP+aqnIS+ckAJ8i37gAbDs14jfW/J23f2GItAf33oiUPQnqNMALiFeoM9Y5mbjpVQ==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
@@ -8208,7 +8208,7 @@ packages:
       react: '>=16.0.0'
     dependencies:
       '@types/prismjs': 1.26.2
-      clsx: 2.0.0
+      clsx: 2.1.0
       react: 18.2.0
     dev: false
 
