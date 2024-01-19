@@ -102,8 +102,8 @@ dependencies:
     specifier: 2.2.3
     version: 2.2.3
   jsrsasign:
-    specifier: 10.8.6
-    version: 10.8.6
+    specifier: 11.0.0
+    version: 11.0.0
   koa:
     specifier: 2.15.0
     version: 2.15.0
@@ -5073,8 +5073,8 @@ packages:
       verror: 1.10.0
     dev: false
 
-  /jsrsasign@10.8.6:
-    resolution: {integrity: sha512-bQmbVtsfbgaKBTWCKiDCPlUPbdlRIK/FzSwT3BzIgZl/cU6TqXu6pZJsCI/dJVrZ9Gir5GC4woqw9shH/v7MBw==}
+  /jsrsasign@11.0.0:
+    resolution: {integrity: sha512-BtRwVKS+5dsgPpAtzJcpo5OoWjSs1/zllSBG0+8o8/aV0Ki76m6iZwHnwnsqoTdhfFZDN1XIdcaZr5ZkP+H2gg==}
     dev: false
 
   /jwa@2.0.0:
