@@ -78,8 +78,8 @@ dependencies:
     specifier: 0.6.3
     version: 0.6.3
   imapflow:
-    specifier: 1.0.147
-    version: 1.0.147
+    specifier: 1.0.148
+    version: 1.0.148
   instagram-private-api:
     specifier: 1.45.3
     version: 1.45.3
@@ -230,8 +230,8 @@ devDependencies:
     specifier: 9.0.4
     version: 9.0.4
   '@types/imapflow':
-    specifier: 1.0.16
-    version: 1.0.16
+    specifier: 1.0.17
+    version: 1.0.17
   '@types/jsdom':
     specifier: 21.1.6
     version: 21.1.6
@@ -1520,8 +1520,8 @@ packages:
     resolution: {integrity: sha512-/K3ds8TRAfBvi5vfjuz8y6+GiAYBZ0x4tXv1Av6CWBWn0IlADc+ZX9pMq7oU0fNQPnBwIZl3rmeLp6SBApbxSQ==}
     dev: true
 
-  /@types/imapflow@1.0.16:
-    resolution: {integrity: sha512-4bWf+MPhut/WpuyQnn60J6EaX1PP5e0QrYf4wIi8p6Cr1XT7eCpNzIFQDdalaELZnzDJPyLkILHkTvjacu6hsQ==}
+  /@types/imapflow@1.0.17:
+    resolution: {integrity: sha512-L7qvMfFhaB5sMP+nx83pZL5r48yBhWIoLsSZwPPTvNHxUKbD2F20aViUm2NeL1h+Be9zDAXcnMyvO7pvhjXjng==}
     dependencies:
       '@types/node': 20.5.6
     dev: true
@@ -4193,8 +4193,8 @@ packages:
     hasBin: true
     dev: false
 
-  /imapflow@1.0.147:
-    resolution: {integrity: sha512-ICMPIkgQ0ysrjj4uQyz6JN8e4hUFpDMZJaNHvRW52uZCTIEGDNmH6IoIAfsdErwsn5z/1g+86e7v/n09A/0XmA==}
+  /imapflow@1.0.148:
+    resolution: {integrity: sha512-C4d1N/heE2nw5WFLjY9lmyyQiGBqYibxoFUquhWluyKPZErw1UIXgydpa7+LrxrSMvKWTp4Wsxi1g51GDncCxQ==}
     dependencies:
       encoding-japanese: 2.0.0
       iconv-lite: 0.6.3
