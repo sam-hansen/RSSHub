@@ -81,8 +81,8 @@ dependencies:
     specifier: 1.0.160
     version: 1.0.160
   instagram-private-api:
-    specifier: 1.45.3
-    version: 1.45.3
+    specifier: 1.46.1
+    version: 1.46.1
   ioredis:
     specifier: 5.3.2
     version: 5.3.2
@@ -126,8 +126,8 @@ dependencies:
     specifier: 1.5.0
     version: 1.5.0
   mailparser:
-    specifier: 3.7.1
-    version: 3.7.1
+    specifier: 3.6.6
+    version: 3.6.6
   markdown-it:
     specifier: 14.1.0
     version: 14.1.0
@@ -311,8 +311,8 @@ devDependencies:
     specifier: 5.1.3
     version: 5.1.3(@types/eslint@8.56.6)(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.4)
   eslint-plugin-yml:
-    specifier: 1.12.2
-    version: 1.12.2(eslint@8.57.0)
+    specifier: 1.14.0
+    version: 1.14.0(eslint@8.57.0)
   fs-extra:
     specifier: 11.2.0
     version: 11.2.0
@@ -1084,6 +1084,7 @@ packages:
   /@lifeomic/attempt@3.0.3:
     resolution: {integrity: sha512-GlM2AbzrErd/TmLL3E8hAHmb5Q7VhDJp35vIbyPVA5Rz55LZuRr8pwL3qrwwkVNo05gMX1J44gURKb4MHQZo7w==}
     dev: false
+
   /@mapbox/node-pre-gyp@1.0.11:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
@@ -1096,7 +1097,7 @@ packages:
       npmlog: 5.0.1
       rimraf: 3.0.2
       semver: 7.6.0
-      tar: 6.1.15
+      tar: 6.2.1
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -1106,7 +1107,7 @@ packages:
     resolution: {integrity: sha512-KIKkT44hEqCzqxODYwFMUvYEK0CrdHx/Ll9xiOWgFbBSRuzbxmVy4d/tzfgoucGz72HJZNOMjuyzFTBKntRK5Q==}
     engines: {node: '>= 14'}
     dependencies:
-      eslint: 8.56.0
+      eslint: 8.57.0
       jschardet: 3.1.2
       lodash: 4.17.21
       utf8: 3.0.0
@@ -3161,14 +3162,14 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-compat-utils@0.4.1(eslint@8.57.0):
-    resolution: {integrity: sha512-5N7ZaJG5pZxUeNNJfUchurLVrunD1xJvyg5kYOIVF8kg1f3ajTikmAu/5fZ9w100omNPOoMjngRszh/Q/uFGMg==}
+  /eslint-compat-utils@0.5.0(eslint@8.57.0):
+    resolution: {integrity: sha512-dc6Y8tzEcSYZMHa+CMPLi/hyo1FzNeonbhJL7Ol0ccuKQkwopJcJBA9YL/xmMTLU1eKigXo9vj9nALElWYSowg==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       eslint: 8.57.0
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /eslint-config-prettier@9.1.0(eslint@8.57.0):
@@ -3234,15 +3235,15 @@ packages:
       synckit: 0.8.8
     dev: true
 
-  /eslint-plugin-yml@1.12.2(eslint@8.57.0):
-    resolution: {integrity: sha512-hvS9p08FhPT7i/ynwl7/Wt7ke7Rf4P2D6fT8lZlL43peZDTsHtH2A0SIFQ7Kt7+mJ6if6P+FX3iJhMkdnxQwpg==}
+  /eslint-plugin-yml@1.14.0(eslint@8.57.0):
+    resolution: {integrity: sha512-ESUpgYPOcAYQO9czugcX5OqRvn/ydDVwGCPXY4YjPqc09rHaUVUA6IE6HLQys4rXk/S+qx3EwTd1wHCwam/OWQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       debug: 4.3.4(supports-color@5.5.0)
       eslint: 8.57.0
-      eslint-compat-utils: 0.4.1(eslint@8.57.0)
+      eslint-compat-utils: 0.5.0(eslint@8.57.0)
       lodash: 4.17.21
       natural-compare: 1.4.0
       yaml-eslint-parser: 1.2.2
@@ -4272,8 +4273,8 @@ packages:
   /inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  /instagram-private-api@1.45.3:
-    resolution: {integrity: sha512-IybVclR0Ahh01rn/4r9sxRn4vkfbfMXAXFVljsGk51mfL/EyyP6Yn+aWIxbG/JboArR1POJzaFI5bQOR99R3xA==}
+  /instagram-private-api@1.46.1:
+    resolution: {integrity: sha512-fq0q6UfhpikKZ5Kw8HNwS6YpsNghE9I/uc8AM9Do9nsQ+3H1u0jLz+0t/FcGkGTjZz5VGvU8s2VbWj9wxchwYg==}
     engines: {node: '>=8.0.0'}
     peerDependencies:
       re2: ^1.17.2
@@ -5522,19 +5523,18 @@ packages:
     hasBin: true
     dev: false
 
-  /mailparser@3.7.1:
-    resolution: {integrity: sha512-RCnBhy5q8XtB3mXzxcAfT1huNqN93HTYYyL6XawlIKycfxM/rXPg9tXoZ7D46+SgCS1zxKzw+BayDQSvncSTTw==}
+  /mailparser@3.6.6:
+    resolution: {integrity: sha512-noCjBl3FToxmqTP2fp7z17hQsiCroWNntfTd8O+UejOAF59xeN5WGZK27ilexXV2e2X/cbUhG3L8sfEKaz0/sw==}
     dependencies:
-      encoding-japanese: 2.1.0
+      encoding-japanese: 2.0.0
       he: 1.2.0
       html-to-text: 9.0.5
       iconv-lite: 0.6.3
-      libmime: 5.3.5
+      libmime: 5.2.1
       linkify-it: 5.0.0
       mailsplit: 5.4.0
-      nodemailer: 6.9.13
-      punycode.js: 2.3.1
-      tlds: 1.252.0
+      nodemailer: 6.9.8
+      tlds: 1.248.0
     dev: false
 
   /mailsplit@5.4.0:
@@ -7833,7 +7833,7 @@ packages:
         optional: true
     dependencies:
       ip-regex: 4.3.0
-      tlds: 1.248.0
+      tlds: 1.252.0
     dev: false
 
   /url-template@2.0.8:
