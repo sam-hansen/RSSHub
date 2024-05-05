@@ -200,8 +200,8 @@ dependencies:
 
 devDependencies:
   '@microsoft/eslint-formatter-sarif':
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 3.1.0
+    version: 3.1.0
   '@stylistic/eslint-plugin-js':
     specifier: 1.5.4
     version: 1.5.4(eslint@8.57.0)
@@ -1102,8 +1102,8 @@ packages:
       - supports-color
     dev: true
 
-  /@microsoft/eslint-formatter-sarif@3.0.0:
-    resolution: {integrity: sha512-KIKkT44hEqCzqxODYwFMUvYEK0CrdHx/Ll9xiOWgFbBSRuzbxmVy4d/tzfgoucGz72HJZNOMjuyzFTBKntRK5Q==}
+  /@microsoft/eslint-formatter-sarif@3.1.0:
+    resolution: {integrity: sha512-/mn4UXziHzGXnKCg+r8HGgPy+w4RzpgdoqFuqaKOqUVBT5x2CygGefIrO4SusaY7t0C4gyIWMNu6YQT6Jw64Cw==}
     engines: {node: '>= 14'}
     dependencies:
       eslint: 8.56.0
