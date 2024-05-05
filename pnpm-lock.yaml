@@ -126,8 +126,8 @@ dependencies:
     specifier: 1.5.0
     version: 1.5.0
   mailparser:
-    specifier: 3.7.1
-    version: 3.7.1
+    specifier: 3.6.6
+    version: 3.6.6
   markdown-it:
     specifier: 14.1.0
     version: 14.1.0
@@ -195,8 +195,8 @@ dependencies:
     specifier: 1.16.3
     version: 1.16.3
   winston:
-    specifier: 3.11.0
-    version: 3.11.0
+    specifier: 3.13.0
+    version: 3.13.0
 
 devDependencies:
   '@microsoft/eslint-formatter-sarif':
@@ -311,8 +311,8 @@ devDependencies:
     specifier: 5.1.3
     version: 5.1.3(@types/eslint@8.56.6)(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.4)
   eslint-plugin-yml:
-    specifier: 1.12.2
-    version: 1.12.2(eslint@8.57.0)
+    specifier: 1.14.0
+    version: 1.14.0(eslint@8.57.0)
   fs-extra:
     specifier: 11.2.0
     version: 11.2.0
@@ -1084,6 +1084,7 @@ packages:
   /@lifeomic/attempt@3.0.3:
     resolution: {integrity: sha512-GlM2AbzrErd/TmLL3E8hAHmb5Q7VhDJp35vIbyPVA5Rz55LZuRr8pwL3qrwwkVNo05gMX1J44gURKb4MHQZo7w==}
     dev: false
+
   /@mapbox/node-pre-gyp@1.0.11:
     resolution: {integrity: sha512-Yhlar6v9WQgUp/He7BdgzOz8lqMQ8sU+jkCq7Wx8Myc5YFJLbEe7lgui/V7G1qB1DJykHSGwreceSaD60Y0PUQ==}
     hasBin: true
@@ -1106,7 +1107,7 @@ packages:
     resolution: {integrity: sha512-/mn4UXziHzGXnKCg+r8HGgPy+w4RzpgdoqFuqaKOqUVBT5x2CygGefIrO4SusaY7t0C4gyIWMNu6YQT6Jw64Cw==}
     engines: {node: '>= 14'}
     dependencies:
-      eslint: 8.56.0
+      eslint: 8.57.0
       jschardet: 3.1.2
       lodash: 4.17.21
       utf8: 3.0.0
@@ -3161,14 +3162,14 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-compat-utils@0.4.1(eslint@8.57.0):
-    resolution: {integrity: sha512-5N7ZaJG5pZxUeNNJfUchurLVrunD1xJvyg5kYOIVF8kg1f3ajTikmAu/5fZ9w100omNPOoMjngRszh/Q/uFGMg==}
+  /eslint-compat-utils@0.5.0(eslint@8.57.0):
+    resolution: {integrity: sha512-dc6Y8tzEcSYZMHa+CMPLi/hyo1FzNeonbhJL7Ol0ccuKQkwopJcJBA9YL/xmMTLU1eKigXo9vj9nALElWYSowg==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       eslint: 8.57.0
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /eslint-config-prettier@9.1.0(eslint@8.57.0):
@@ -3234,15 +3235,15 @@ packages:
       synckit: 0.8.8
     dev: true
 
-  /eslint-plugin-yml@1.12.2(eslint@8.57.0):
-    resolution: {integrity: sha512-hvS9p08FhPT7i/ynwl7/Wt7ke7Rf4P2D6fT8lZlL43peZDTsHtH2A0SIFQ7Kt7+mJ6if6P+FX3iJhMkdnxQwpg==}
+  /eslint-plugin-yml@1.14.0(eslint@8.57.0):
+    resolution: {integrity: sha512-ESUpgYPOcAYQO9czugcX5OqRvn/ydDVwGCPXY4YjPqc09rHaUVUA6IE6HLQys4rXk/S+qx3EwTd1wHCwam/OWQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
     dependencies:
       debug: 4.3.4(supports-color@5.5.0)
       eslint: 8.57.0
-      eslint-compat-utils: 0.4.1(eslint@8.57.0)
+      eslint-compat-utils: 0.5.0(eslint@8.57.0)
       lodash: 4.17.21
       natural-compare: 1.4.0
       yaml-eslint-parser: 1.2.2
@@ -5317,6 +5318,15 @@ packages:
       libqp: 2.0.1
     dev: false
 
+  /libmime@5.2.1:
+    resolution: {integrity: sha512-A0z9O4+5q+ZTj7QwNe/Juy1KARNb4WaviO4mYeFC4b8dBT2EEqK2pkM+GC8MVnkOjqhl5nYQxRgnPYRRTNmuSQ==}
+    dependencies:
+      encoding-japanese: 2.0.0
+      iconv-lite: 0.6.3
+      libbase64: 1.2.1
+      libqp: 2.0.1
+    dev: false
+
   /libmime@5.3.5:
     resolution: {integrity: sha512-nSlR1yRZ43L3cZCiWEw7ali3jY29Hz9CQQ96Oy+sSspYnIP5N54ucOPHqooBsXzwrX1pwn13VUE05q4WmzfaLg==}
     dependencies:
@@ -5513,19 +5523,18 @@ packages:
     hasBin: true
     dev: false
 
-  /mailparser@3.7.1:
-    resolution: {integrity: sha512-RCnBhy5q8XtB3mXzxcAfT1huNqN93HTYYyL6XawlIKycfxM/rXPg9tXoZ7D46+SgCS1zxKzw+BayDQSvncSTTw==}
+  /mailparser@3.6.6:
+    resolution: {integrity: sha512-noCjBl3FToxmqTP2fp7z17hQsiCroWNntfTd8O+UejOAF59xeN5WGZK27ilexXV2e2X/cbUhG3L8sfEKaz0/sw==}
     dependencies:
-      encoding-japanese: 2.1.0
+      encoding-japanese: 2.0.0
       he: 1.2.0
       html-to-text: 9.0.5
       iconv-lite: 0.6.3
-      libmime: 5.3.5
+      libmime: 5.2.1
       linkify-it: 5.0.0
       mailsplit: 5.4.0
-      nodemailer: 6.9.13
-      punycode.js: 2.3.1
-      tlds: 1.252.0
+      nodemailer: 6.9.8
+      tlds: 1.248.0
     dev: false
 
   /mailsplit@5.4.0:
@@ -5936,6 +5945,11 @@ packages:
 
   /nodemailer@6.9.13:
     resolution: {integrity: sha512-7o38Yogx6krdoBf3jCAqnIN4oSQFx+fMa0I7dK1D+me9kBxx12D+/33wSb+fhOCtIxvYJ+4x4IMEhmhCKfAiOA==}
+    engines: {node: '>=6.0.0'}
+    dev: false
+
+  /nodemailer@6.9.8:
+    resolution: {integrity: sha512-cfrYUk16e67Ks051i4CntM9kshRYei1/o/Gi8K1d+R34OIs21xdFnW7Pt7EucmVKA0LKtqUGNcjMZ7ehjl49mQ==}
     engines: {node: '>=6.0.0'}
     dev: false
 
@@ -7819,7 +7833,7 @@ packages:
         optional: true
     dependencies:
       ip-regex: 4.3.0
-      tlds: 1.248.0
+      tlds: 1.252.0
     dev: false
 
   /url-template@2.0.8:
@@ -7959,17 +7973,17 @@ packages:
       string-width: 4.2.3
     dev: true
 
-  /winston-transport@4.5.0:
-    resolution: {integrity: sha512-YpZzcUzBedhlTAfJg6vJDlyEai/IFMIVcaEZZyl3UXIl4gmqRpU7AE89AHLkbzLUsv0NVmw7ts+iztqKxxPW1Q==}
-    engines: {node: '>= 6.4.0'}
+  /winston-transport@4.7.0:
+    resolution: {integrity: sha512-ajBj65K5I7denzer2IYW6+2bNIVqLGDHqDw3Ow8Ohh+vdW+rv4MZ6eiDvHoKhfJFZ2auyN8byXieDDJ96ViONg==}
+    engines: {node: '>= 12.0.0'}
     dependencies:
       logform: 2.5.1
       readable-stream: 3.6.2
       triple-beam: 1.4.1
     dev: false
 
-  /winston@3.11.0:
-    resolution: {integrity: sha512-L3yR6/MzZAOl0DsysUXHVjOwv8mKZ71TrA/41EIduGpOOV5LQVodqN+QdQ6BS6PJ/RdIshZhq84P/fStEZkk7g==}
+  /winston@3.13.0:
+    resolution: {integrity: sha512-rwidmA1w3SE4j0E5MuIufFhyJPBDG7Nu71RkZor1p2+qHvJSZ9GYDA81AyleQcZbh/+V6HjeBdfnTZJm9rSeQQ==}
     engines: {node: '>= 12.0.0'}
     dependencies:
       '@colors/colors': 1.6.0
@@ -7982,7 +7996,7 @@ packages:
       safe-stable-stringify: 2.4.3
       stack-trace: 0.0.10
       triple-beam: 1.4.1
-      winston-transport: 4.5.0
+      winston-transport: 4.7.0
     dev: false
 
   /word-wrap@1.2.5:
