@@ -203,8 +203,8 @@ devDependencies:
     specifier: 3.1.0
     version: 3.1.0
   '@stylistic/eslint-plugin-js':
-    specifier: 1.5.4
-    version: 1.5.4(eslint@9.2.0)
+    specifier: 2.1.0
+    version: 2.1.0(eslint@9.2.0)
   '@types/aes-js':
     specifier: 3.1.4
     version: 3.1.4
@@ -1373,17 +1373,17 @@ packages:
       '@sinonjs/commons': 3.0.0
     dev: true
 
-  /@stylistic/eslint-plugin-js@1.5.4(eslint@9.2.0):
-    resolution: {integrity: sha512-3ctWb3NvJNV1MsrZN91cYp2EGInLPSoZKphXIbIRx/zjZxKwLDr9z4LMOWtqjq14li/OgqUUcMq5pj8fgbLoTw==}
-    engines: {node: ^16.0.0 || >=18.0.0}
+  /@stylistic/eslint-plugin-js@2.1.0(eslint@9.2.0):
+    resolution: {integrity: sha512-gdXUjGNSsnY6nPyqxu6lmDTtVrwCOjun4x8PUn0x04d5ucLI74N3MT1Q0UhdcOR9No3bo5PGDyBgXK+KmD787A==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
     dependencies:
+      '@types/eslint': 8.56.10
       acorn: 8.11.3
-      escape-string-regexp: 4.0.0
       eslint: 9.2.0
-      eslint-visitor-keys: 3.4.3
-      espree: 9.6.1
+      eslint-visitor-keys: 4.0.0
+      espree: 10.0.1
     dev: true
 
   /@szmarczak/http-timer@4.0.6:
@@ -1503,6 +1503,13 @@ packages:
 
   /@types/eslint-config-prettier@6.11.3:
     resolution: {integrity: sha512-3wXCiM8croUnhg9LdtZUJQwNcQYGWxxdOWDjPe1ykCqJFPVpzAKfs/2dgSoCtAvdPeaponcWPI7mPcGGp9dkKQ==}
+    dev: true
+
+  /@types/eslint@8.56.10:
+    resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
+    dependencies:
+      '@types/estree': 1.0.1
+      '@types/json-schema': 7.0.12
     dev: true
 
   /@types/eslint@8.56.6:
