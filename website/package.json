@@ -35,7 +35,7 @@
     "@docusaurus/tsconfig": "^3.3.2",
     "@docusaurus/types": "3.3.2",
     "@types/markdown-it": "^14.1.1",
-    "@types/mdx-js__react": "^1.5.8",
+    "@types/mdx-js__react": "^2.0.0",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "typescript": "^5.4.5"
