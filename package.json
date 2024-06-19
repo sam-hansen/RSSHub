@@ -211,7 +211,7 @@
     "unified": "9.2.2"
   },
   "engines": {
-    "node": ">=16"
+    "node": "18.x"
   },
   "reporters": [
     "default",
