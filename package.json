@@ -21,8 +21,8 @@
   ],
   "scripts": {
     "build:all": "npm run build:radar && npm run build:maintainer",
-    "build:maintainer": "node scripts/workflow/build-maintainer.js",
-    "build:radar": "node scripts/workflow/build-radar.js",
+    "build:maintainer": "node scripts/workflow/build-maintainer.js --output public",
+    "build:radar": "node scripts/workflow/build-radar.js --output public",
     "dev": "cross-env NODE_ENV=dev nodemon --inspect lib/index.js",
     "format": "eslint --cache --fix \"**/*.{js,yml}\" && node website/docs/.format/format.mjs && prettier \"**/*.{js,json}\" --write",
     "format:check": "eslint --cache \"**/*.{js,yml}\" && prettier \"**/*.{js,json}\" --check",
